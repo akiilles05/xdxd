@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply font-primary h-[100%] w-[100%] bg-no-repeat bg-gradient-to-135 from-[#14b8a6] to-[#cbd5e1]  text-white leading-loose;
+    @apply font-primary min-h-[100vh] w-[100%] bg-no-repeat bg-gradient-to-135 from-[#14b8a5] to-[#cbd5e1]  text-white leading-loose;
   }
 
   .h1 {
@@ -17,3 +17,4 @@
     @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
   }
 }
+

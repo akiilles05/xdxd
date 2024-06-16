@@ -3,11 +3,12 @@ import { FiDownload, Discord } from "react-icons/fi";
 import { FaDiscord } from "react-icons/fa";
 import Photo from "@/components/Photo";
 import Services from "@/components/Services";
+import Works from "@/components/Works";
 
 const Home = () => {
   return (
     <section className="h-full ">
-      <div className="container mx-auto h-full">
+      <div className="container mx-auto h-full mb-12">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24 gap-8">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
@@ -42,6 +43,7 @@ const Home = () => {
         </div>
       </div>
       <Services />
+      <Works />
     </section>
   );
 };
